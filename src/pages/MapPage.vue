@@ -22,11 +22,11 @@
         <q-btn zoom dense color="white" text-color="dark" @click="zoom--" icon="remove"/>
       </div>
     </div>
-    <div style="position: absolute; bottom: 0" class="col-12 row">
+    <div style="position: absolute; bottom: 0" class="col-12 row q-pa-lg">
       <q-space/>
-      <q-card class="row">
+      <q-card class="row q-pa-sm">
         <div>Proyectos: 50</div>
-        <div>Financiación: 70 000 000 E</div>
+        <div style="padding-left: 2em">Financiación: 70 000 000 E</div>
       </q-card>
     </div>
   </q-page>
