@@ -2,7 +2,7 @@
 
 Frontend para comunicar con api de mapas
 
-##Install Quasar Cli
+## Install Quasar Cli
 
 ```bash
 npm install -g @quasar/cli
