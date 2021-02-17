@@ -1,0 +1,6 @@
+{
+  "ide-helper": {
+    "addToGitIgnore": true
+  },
+  "@quasar/qoverlay": {}
+}

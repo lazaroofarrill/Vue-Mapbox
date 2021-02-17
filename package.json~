@@ -1,0 +1,65 @@
+{
+  "name": "trabajo-con-mapas",
+  "version": "0.0.1",
+  "description": "trabajo con mapas",
+  "productName": "Frontend Para Api de mapas",
+  "author": "lazaroofarrill <lazaroofarrill@gmail.com>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue ./",
+    "test": "echo \"No test specified\" && exit 0",
+    "font": "svgtofont --sources ./src/assets/icons --output ./src/css/font --fontName app",
+    "debug": "quasar dev",
+    "watch": "quasar build --watch"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.9.12",
+    "@vue-leaflet/vue-leaflet": "0.3.0",
+    "apexcharts": "^3.23.1",
+    "axios": "^0.18.1",
+    "babel-preset-es2015": "^6.24.1",
+    "core-js": "^3.6.5",
+    "jquery": "^3.5.1",
+    "leaflet": "^1.7.1",
+    "quasar": "^1.0.0",
+    "svg-to-iconfont": "^1.1.6",
+    "svgtofont": "^3.8.0",
+    "vue-apexcharts": "^1.6.0",
+    "vue-i18n": "^8.0.0",
+    "vue-resize-text": "^0.1.1",
+    "vue2-leaflet": "^2.6.0",
+    "vue3-apexcharts": "^1.1.1",
+    "vuex-persistedstate": "^4.0.0-beta.3",
+    "webfont": "^9.0.0",
+    "webfonts-generator": "^0.4.0"
+  },
+  "devDependencies": {
+    "@quasar/app": "^2.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^6.1.2",
+    "quasar-app-extension-ide-helper": "^1.0.0"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
