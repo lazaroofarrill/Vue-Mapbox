@@ -1,4 +1,4 @@
-# Frontend Vaqueria (front-quasar)
+# Vue-Mapbox
 
 Frontend para comunicar con api de mapas
 
